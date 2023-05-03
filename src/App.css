@@ -53,13 +53,10 @@ div {
 }
 
 header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   padding: 0.1rem;
-  background-color: #333;
   color: #fff;
   background-color: red;
+  display: flex;
 }
 
 nav ul {
@@ -88,7 +85,7 @@ section {
   padding: 1rem;
 }
 
-@media  screen and (min-width: 600px) {
+/* @media screen and (min-width: 600px) {
   section {
     flex-basis: calc(100% / 3 - 5.5rem);
     margin-right: 1rem;
@@ -98,6 +95,65 @@ section {
   section:nth-child(3n) {
     margin-right: 0;
     background-color: aquamarine;
+  }
+  header {
+    background-color: rgb(32, 236, 236);
+  }
+} */
+/* For Desktop View */
+@media screen and (min-width: 1024px) {
+  header {
+    background-color: rgb(236, 32, 32);
+  }
+}
+
+/* For Tablet View */
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  header {
+    background-color: rgb(13, 15, 15);
+  }
+}
+
+/* For Mobile Portrait View */
+@media screen and (max-device-width: 480px) and (orientation: portrait) {
+  header {
+    background-color: rgb(236, 32, 175);
+  }
+}
+
+/* For Mobile Landscape View */
+@media screen and (max-device-width: 640px) and (orientation: landscape) {
+  header {
+    background-color: rgb(236, 100, 32);
+  }
+}
+
+/* For Mobile Phones Portrait or Landscape View */
+@media screen and (max-device-width: 640px) {
+  header {
+    background-color: rgb(32, 236, 236);
+    width: 640px;
+  }
+}
+
+/* For iPhone 4 Portrait or Landscape View */
+/* @media screen and (min-device-width: 320px) and (-webkit-min-device-pixel-ratio: 2) {
+  header {
+    background-color: rgb(236, 188, 32);
+  }
+} */
+
+/* For iPhone 5 Portrait or Landscape View */
+@media (device-height: 568px) and (device-width: 320px) and (-webkit-min-device-pixel-ratio: 2) {
+  header {
+    background-color: rgb(32, 236, 141);
+  }
+}
+
+/* For iPhone 6 and 6 plus Portrait or Landscape View */
+@media (min-device-height: 667px) and (min-device-width: 375px) and (-webkit-min-device-pixel-ratio: 3) {
+  header {
+    background-color: rgb(76, 32, 236);
   }
 }
 

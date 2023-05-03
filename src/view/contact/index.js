@@ -1,11 +1,11 @@
 import React from "react";
 
-const Home = () => {
+const Contact = () => {
   return (
     <div>
-      <p>home</p>
+      <p>Contact</p>
     </div>
   );
 };
 
-export default Home;
+export default Contact;
