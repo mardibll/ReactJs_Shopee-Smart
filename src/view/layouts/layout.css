@@ -25,7 +25,11 @@ h2 {
   padding: 0;
   margin: 0px;
 }
-@media screen and (min-device-width: 691px) and (max-device-width: 902px) {
+@media screen and (min-device-width: 690px) and (max-device-width: 902px) {
+  .title {
+    background-color: aqua;
+    width: 900px;
+  }
   .nav_1 {
     display: flex;
 
@@ -51,7 +55,11 @@ h2 {
     padding: 15px;
   }
 }
-@media screen and (min-device-width: 471px) and (max-device-width: 690px) {
+@media screen and (min-device-width: 51px) and (max-device-width: 690px) {
+  .title {
+    background-color: aqua;
+    width: 900px;
+  }
   .nav_1 {
     text-align: center;
     width: 270px;
@@ -90,9 +98,9 @@ ul {
   padding: 0px;
   margin: 0px;
 }
-@media screen and (min-device-width: 50px) and (max-device-width: 100px) {
+@media screen and (min-device-width: 40px) and (max-device-width: 50px) {
   .title {
     background-color: aqua;
-    width: 100px;
+    width: 200px;
   }
 }
