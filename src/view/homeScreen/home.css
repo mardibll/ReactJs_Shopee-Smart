@@ -1,7 +1,7 @@
-@media screen and (min-width: 903px) {
+@media screen and (min-width:700px) and (max-device-width: 902px) {
   .image {
-    height: 500px;
-    opacity: 0.4;
+    /* width: 100%; */
+    /* opacity: 0.4; */
   }
 }
 /* 
@@ -20,6 +20,22 @@
     width: 200px;
   }
 } */
-img {
+/* img {
   width: 100%;
+} */
+@media screen and (min-device-width: 40px) and (max-device-width: 50px) {
+  .image {
+    width: 10;
+    background-color: aqua;
+    border-radius: 100px;
+  }
+}
+.image{
+  padding-left: 200;background-color: blue;
+}
+.makan{
+  background-color: aqua;
+}
+.card{
+  background-color: blue;
 }

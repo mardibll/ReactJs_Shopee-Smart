@@ -13,10 +13,10 @@ const Home = () => {
   const windowSize = UsesWindows();
   const settings = {
     // dots: true,
-    autoplay: true,
-    infinite: true,
-    slidesToShow: 1,
-    slidesToScroll: 1,
+    // autoplay: true,
+    // infinite: true,
+    // slidesToShow: 1,
+    // slidesToScroll: 1,
   };
   const slideritem = {
     dots: true,
@@ -28,8 +28,8 @@ const Home = () => {
   return (
     <div>
       <Slider {...settings}>
-        <div>
-          {/* <div
+      <div style={{}}>
+          <div
             style={{
               position: "absolute",
               color: "white",
@@ -41,14 +41,15 @@ const Home = () => {
             <h1>WE SERVE BETTER</h1>
             <h2>CV. ONE MEDIA SOLUTION</h2>
             <h3 style={{ letterSpacing: 10 }}>IT SUPPORT</h3>
-          </div> */}
+          </div>
           <img
             className="image"
+            style={{borderRadius:100}}
             src="https://media.istockphoto.com/id/179517389/id/foto/siswa-belajar-dengan-laptop-di-ruang-kelas.jpg?s=170667a&w=0&k=20&c=Yyr8mAMuRPp-mpRoWAOMHd4oroy6UD6ZaslJd73GesU="
           />
         </div>
         <div>
-          {/* <div
+          <div
             style={{
               position: "absolute",
               color: "white",
@@ -62,7 +63,7 @@ const Home = () => {
               atau
               <br></br>Printernya Ngadat
             </h1>
-          </div> */}
+          </div>
           <div>
             <img
               className="image"
@@ -71,7 +72,7 @@ const Home = () => {
           </div>
         </div>
         <div>
-          {/* <div
+          <div
             style={{
               position: "absolute",
               color: "white",
@@ -84,13 +85,23 @@ const Home = () => {
               GO GLOBAL<br></br>LEBIH MUDAH<br></br>DENGAN WEBSITE
             </h1>
             <h2>Segera Konsoltasi dengan Kami</h2>
-          </div> */}
+          </div>
           <img
             className="image"
             src="https://thumbor.forbes.com/thumbor/fit-in/900x510/https://www.forbes.com/advisor/wp-content/uploads/2022/03/build_a_website_for_free_-_article_image.jpg"
           />
         </div>
       </Slider>
+      <div className="makan">
+        <p>hdujhfwuih</p>
+      </div>
+      <div className="card">
+
+      <img
+            className="image"
+            src="https://thumbor.forbes.com/thumbor/fit-in/900x510/https://www.forbes.com/advisor/wp-content/uploads/2022/03/build_a_website_for_free_-_article_image.jpg"
+            />
+            </div>
       {/* <div style={{ flex: 1, justifyContent: "center" }}>
         <Slider {...slideritem}>
           <div>
